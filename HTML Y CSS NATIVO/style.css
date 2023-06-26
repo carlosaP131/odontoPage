@@ -336,31 +336,94 @@ h2 {
   bottom: 0;
 }
 /*===========Seguimiento=============*/
-.gallery-seguimiento {
+.container-seg {
   display: flex;
-  flex-direction: column;
   margin: auto;
   width: 80%;
 }
 
-.image-seguimiento {
+.column-seg {
+  flex: 1;
+  
+ 
+}
+/*=========Contacto=================*/
+/*============formulario===========*/
+.container-contacto {
   display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #6c757d;
 }
 
-.caption {
-  margin-left: 10px;
+.formulario {
+  width: 50%;
 }
 
-.caption h3 {
-  font-size: 18px;
+.columna-vacia {
+  width: 40%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.caption p {
-  font-size: 14px;
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /*=================Animaciones=====================*/
