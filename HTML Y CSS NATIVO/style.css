@@ -95,7 +95,7 @@ footer p, footer h5 ,footer h3, footer label{
 .carousel__slide img {
   width: 100%; /* Ajusta el tamaño de las imágenes */
   height: 100%; /* Ajusta el tamaño de las imágenes */
-  object-fit: cover; /* Ajusta el valor de object-fit según tus necesidades */
+  object-fit: cover; 
 }
 
 .carousel__prev,
@@ -236,14 +236,30 @@ h2 {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  margin: 80px;
+  grid-column-gap: 40px; /* Aumentamos el espacio entre las columnas */
+  grid-row-gap: 30px; /* Aumentamos el espacio entre las filas */
+  margin:auto;
+ width:85%;
 }
 
 .card {
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 10px; /* Reducimos el relleno de las tarjetas */
   text-align: center;
+  width: 100%;
+}
+
+/*===========boton==============*/
+.my-button {
+  background-color: #81c5de;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #20A4D2;
 }
 
 /*=================Animaciones=====================*/
