@@ -335,6 +335,33 @@ h2 {
   opacity: 1;
   bottom: 0;
 }
+/*===========Seguimiento=============*/
+.gallery-seguimiento {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.image-seguimiento {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.caption {
+  margin-left: 10px;
+}
+
+.caption h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.caption p {
+  font-size: 14px;
+}
 
 /*=================Animaciones=====================*/
 .slide-top:hover {
