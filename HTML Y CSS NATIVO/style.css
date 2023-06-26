@@ -4,7 +4,7 @@ body{
 }
 /*======Contenido Index============*/
 .contenedor {
-  max-width: 100%;
+  max-width: 80%;
   height: 550px;
   margin: 80px;
   display: flex;
@@ -54,8 +54,7 @@ li a:hover {
 
 footer {
   background-image: linear-gradient(to top , #20A4D2, #81c5de, #FFFFFF);
-  
- 
+
 }
 .grid-container {
   display: grid;
